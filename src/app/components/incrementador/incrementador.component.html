@@ -1,0 +1,9 @@
+<h4>{{ leyenda }}</h4>
+<div class="input-group">
+
+    <input type="text" class="form-control" [(ngModel)]="porcentaje">
+    <div class="input-group-append">
+        <button (click)="cambiaValor(-5)" class="btn btn-outline-secondary" type="button"><i class="mdi mdi-minus-box"></i></button>
+        <button (click)="cambiaValor(5)" class="btn btn-outline-secondary" type="button"><i class="mdi mdi-plus-box"></i></button>
+    </div>
+</div>
