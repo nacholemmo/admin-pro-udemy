@@ -10,11 +10,14 @@ export class SidebarService {
     subitmenus: [
       {titulo: 'Dashboard', url: '/dashboard'},
       {titulo: 'ProgressBar', url: '/progress'},
-      {titulo: 'Graficas', url: '/graficas1'}
+      {titulo: 'Graficas', url: '/graficas1'},
+      {titulo: 'Promesas', url: '/promesas'},
+      {titulo: 'Observe', url: '/rxjs'}
     ]
   }
 ];
 
-  constructor() { }
+  constructor() {
+  }
 
 }
